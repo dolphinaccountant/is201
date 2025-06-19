@@ -1,0 +1,85 @@
+.bold {
+    font: bolder;
+    font-size: large;
+    color: white;
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+    font: bold;
+    font-family: inherit;
+}
+
+.body {
+    font-family: cursive;
+}
+
+.header {
+    top: 5px;
+    right: 10px;
+    left: 10px;
+    height: 300px;
+    /* background-color: aquamarine; */
+    background-image: url('https://www.nortekgroup.com/assets/images/_1920x1156_crop_center-center_none/Waves.jpg');
+}
+
+.footer {
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: rgb(61, 61, 66);
+    bottom: 5px;
+    height: 25px;
+    right: 5px;
+    left: 5px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 15px;
+    /* position: fixed; */
+}
+
+.mainbody {
+    left: 5px;
+    top: 305px;
+    right: 105px;
+}
+
+.flexbox {
+    display:flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 100px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.video {
+    flex: 1;
+}
+
+.button {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 200px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.buttonspot {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+    padding-left: 70px;
+    display: flex;
+}
